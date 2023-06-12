@@ -64,7 +64,7 @@ jsonStream.on("end", () => {
   InsereComLog(monthData, hashTable);
 
   //Procura todos os logs correspondente
-  console.log(hashTable.getLog(64091));
+  console.log(hashTable.getLog(35184));
 
-  console.log(hashTable.getLogMes(63091, "July"));
+  console.log(hashTable.getLogMes(35184, "June"));
 });
