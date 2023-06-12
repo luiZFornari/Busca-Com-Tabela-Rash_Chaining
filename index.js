@@ -3,7 +3,7 @@ const fs = require("fs");
 const { stringify } = require("querystring");
 const { parser } = require("stream-json");
 const { streamArray } = require("stream-json/streamers/StreamArray");
-const { HashTable, InsereComLog } = require("./HasTable.js");
+const { HashTable, InsereComLog } = require("./HashTable.js");
 const { separarMes, radixSort } = require("./Radix.js");
 var inputData = [];
 
