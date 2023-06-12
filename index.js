@@ -14,7 +14,7 @@ async function processJsonObject(jsonObj) {
 }
 
 // Caminho do arquivo JSON de origem
-const filePath = "./dataGiga.json";
+const filePath = "./data.json";
 
 // Cria um fluxo de leitura para o arquivo
 const readStream = fs.createReadStream(filePath, { encoding: "utf-8" });
